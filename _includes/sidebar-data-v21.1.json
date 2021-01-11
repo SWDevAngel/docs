@@ -177,58 +177,35 @@
             ]
           },
           {
-            "title": "Design a Schema",
+            "title": "Design a Database Schema",
             "items": [
               {
-                "title": "Overview",
+                "title": "Database Schema Objects",
                 "urls": [
                   "/${VERSION}/schema-design-overview.html"
                 ]
               },
               {
-                "title": "Create a Database and Schema",
+                "title": "Create a Database and User-defined Schema",
                 "urls": [
                   "/${VERSION}/schema-design-database-schema.html"
                 ]
               },
               {
-                "title": "Create Tables and Indexes",
-                "items": [
-                  {
-                    "title": "Define Columns",
-                    "urls": [
-                      "/${VERSION}/schema-design-columns.html"
-                    ]
-                  },
-                  {
-                    "title": "Select a Primary Key",
-                    "urls": [
-                      "/${VERSION}/schema-design-primary-key.html"
-                    ]
-                  },
-                  {
-                    "title": "Add Secondary Indexes",
-                    "urls": [
-                      "/${VERSION}/schema-design-indexes.html"
-                    ]
-                  },
-                  {
-                    "title": "Add Column Constraints",
-                    "urls": [
-                      "/${VERSION}/schema-design-constraints.html"
-                    ]
-                  }
+                "title": "Create a Table",
+                "urls": [
+                  "/${VERSION}/schema-design-table.html"
                 ]
               },
               {
-                "title": "Update a Schema",
+                "title": "Add Secondary Indexes",
+                "urls": [
+                  "/${VERSION}/schema-design-indexes.html"
+                ]
+              },
+              {
+                "title": "Update Objects in a Database Schema",
                 "items": [
-                  {
-                    "title": "Overview",
-                    "urls": [
-                      "/${VERSION}/schema-update-overview.html"
-                    ]
-                  },
                   {
                     "title": "How Schema Changes Work",
                     "urls": [
@@ -236,13 +213,13 @@
                     ]
                   },
                   {
-                    "title": "Modify an Object in a Cluster",
+                    "title": "Modify an Object",
                     "urls": [
                       "/${VERSION}/schema-update-modify-objects.html"
                     ]
                   },
                   {
-                    "title": "Remove an Object from a Cluster",
+                    "title": "Remove an Object",
                     "urls": [
                       "/${VERSION}/schema-update-remove-objects.html"
                     ]
@@ -265,7 +242,7 @@
                     ]
                   },
                   {
-                    "title": "Use Partial Indexes",
+                    "title": "Index a Subset of Rows",
                     "urls": [
                       "/${VERSION}/partial-indexes.html"
                     ]
